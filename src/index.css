@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #070708;
+    color: #fff;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: transition;
+}
+button {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.app.dark .logo-dark {
+    display: none;
+}
+.app.light .logo {
+    display: none;
+}
+
+.app.dark .tooltip {
+    background-color: #1c1c21;
+}
+
+.app.light .accordion-header,
+.app.light .btn-carousel,
+.app.light input,
+.app.light textarea {
+    background-color: antiquewhite;
+}
+
+.app.light .header-btn,
+.app.light button {
+    background-color: chocolate;
+}
+
+.app.light .header-btn:hover,
+.app.light button:hover {
+    background-color: tomato;
+}
+.burger-dark {
+    background: none;
+}
+.app.dark .burger-dark {
+    display: none;
+}
+.app.light .burger {
+    display: none;
+}
+
+.app.light {
+    background-color: antiquewhite;
+}
+
+.app.light input,
+.app.light textarea,
+.app.light .accordion-header,
+.app.light .accordion-body,
+.app.light p,
+.app.light a,
+.app.light label,
+.app.light strong,
+.app.light h2,
+.app.light h3,
+.app.light h4,
+.app.light h5 {
+    color: #1c1c21;
+}
+
+
+
+.header-btn,
+.main-btn {
+    flex-shrink: 0;
+    border-radius: 10px;
+    padding: 16px 24px;
+    background: #1c1c21;
+    color: #fff;
+}
+.main-btn:hover {
+    background: #131316;
+}
+.df {
+    display: flex;
+    align-items: center;
+}
+.btn-svg,
+.btn-arrow {
+    cursor: pointer;
+}
+.buttons-carousel {
+    display: flex;
+    flex-shrink: 0;
+    max-width: 440px;
+    border: 1px solid#1C1C21;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.btn-carousel {
+    flex-shrink: 0;
+    padding: 6px 16px;
+    background: #070708;
+}
+
+.button-blue {
+    cursor: pointer;
+    margin-left: 5px;
+    bottom: 0;
+}
+
+.button-blue * :hover {
+    transition: all 0.2s ease;
+    fill: #281591;
+    stroke: orangered;
+}
+
+.block-buttons {
+    max-width: 440px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn-svg :hover {
+    fill: #131316;
+}
+
+@media (max-width: 1550px) {
+    .buttons-carousel {
+        max-width: 124px;
+        height: 64px;
+    }
+    .btn-carousel {
+        padding: 0 5px;
+    }
+    .btn-svg {
+        max-width: 48px;
+    }
+}
+@media (max-width: 1440px) {
+    .main-btn {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    .buttons-carousel {
+        max-width: 124px;
+    }
+    .buttons-container {
+        width: 156px;
+    }
+    .button-blue {
+        width: 100px;
+    }
+}
+
+@media (max-width: 1325px) {
+    .button-blue {
+        width: 70px;
+    }
+    .main-btn {
+        font-size: 14px;
+    }
+    .buttons-container {
+        width: 100px;
+    }
+}
+
+@media (max-width: 1070px) {
+}
+
+@media (max-width: 1000px) {
+    header {
+        padding: 0 40px;
+    }
+}
+@media (max-width: 992px) {
+    .df {
+        margin: 0;
+    }
+    .block-buttons {
+        max-width: 337px;
+        margin-right: 16px;
+    }
+}
+@media (max-width: 420px) {
+    .buttons-carousel {
+        width: 100px;
+    }
+    .btn-carousel * {
+        max-width: 40px;
+    }
+    .block-buttons {
+        gap: 2px;
+    }
+}

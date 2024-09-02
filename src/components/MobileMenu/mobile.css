@@ -1,0 +1,22 @@
+.mobile-menu {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+.mobile-menu__nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+.mobile-nav-item {
+    color: black;
+}
+@media (max-width: 515px) {
+    .mobile-menu__nav {
+        font-size: 10px;
+    }
+}

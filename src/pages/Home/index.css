@@ -1,0 +1,17 @@
+.alert-node-enter {
+    opacity: 0;
+  }
+  
+  .alert-node-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms;
+  }
+  
+  .alert-node-exit {
+    opacity: 1;
+  }
+  
+  .alert-node-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms;
+  }

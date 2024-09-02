@@ -1,0 +1,104 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+.section {
+    margin: 0 auto;
+    padding: 0 162px;
+    margin-bottom: 200px;
+}
+.desc {
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #62646c;
+}
+.title {
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 79.23px;
+    text-transform: uppercase;
+    color: #e4e4e6;
+}
+
+.block_buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card_photo {
+    padding: 0;
+}
+.card_title {
+    display: flex;
+}
+.photos {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.img_photo {
+    width: 100%;
+}
+@media (max-width: 1735px) {
+    .title {
+        font-size: 60px;
+    }
+}
+@media (max-width: 1440px) {
+    .section {
+        padding: 0 80px;
+    }
+    .photo {
+        width: 48px;
+    }
+    .title {
+        font-size: 48px;
+    }
+    .desc {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1325px) {
+    .section {
+        margin-bottom: 100px;
+    }
+    .title {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 1325px) {
+    .main {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .section {
+        padding: 0 15px;
+    }
+}
+@media (max-width: 992px) {
+    .main {
+        flex-direction: column;
+    }
+    .photos {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,149 @@
+.main {
+    margin: 0 auto;
+
+    padding: 0 162px;
+    position: relative;
+}
+.section {
+    margin: 0 auto;
+
+    margin-bottom: 200px;
+}
+.absolut {
+    position: absolute;
+    top: 80px;
+    max-width: 1096px;
+    margin: 0 662px 0 0;
+}
+.absolut p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #797c86;
+}
+.desc {
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #62646c;
+}
+.title {
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 79.23px;
+    text-transform: uppercase;
+    color: #e4e4e6;
+}
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #797c86;
+}
+.photo_380 {
+    display: none;
+    width: 100%;
+}
+
+.photo {
+    margin-top: 100px;
+    width: 100%;
+}
+
+@media (max-width: 1520px) {
+    .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .section {
+        margin-bottom: 70px;
+    }
+    .text {
+        margin-top: 5px;
+    }
+}
+@media (max-width: 1440px) {
+    .main {
+        padding: 0 80px;
+    }
+    .desc {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 21.86px;
+    }
+    .section {
+        margin-bottom: 70px;
+    }
+    .text {
+        margin-top: 5px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .photo {
+        margin-top: 60px;
+    }
+}
+@media (max-width: 1340px) {
+    .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .absolut {
+        margin: 0 410px 0 0;
+    }
+}
+@media (max-width: 1175px) {
+    .absolut {
+        margin: 0 350px 0 0;
+        top: 30px;
+    }
+    .text {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+    }
+    .title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
+@media (max-width: 1000px) {
+    .main {
+        padding: 0 15px;
+    }
+}
+@media (max-width: 1000px) {
+    .absolut {
+        margin: 0 280px 0 0;
+        top: 30px;
+    }
+    .text {
+        margin-top: 0;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    .title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .desc {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 845px) {
+    .img_bot,
+    .main {
+        display: none;
+    }
+    .photo_380 {
+        display: block;
+    }
+}

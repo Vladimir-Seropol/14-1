@@ -1,0 +1,85 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.section {
+    padding: 0 162px;
+    margin-bottom: 200px;
+    margin: 0 auto;
+}
+
+.desc {
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #62646c;
+}
+.calk {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(98, 100, 108, 1);
+}
+.title {
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 79.23px;
+    text-transform: uppercase;
+    color: #e4e4e6;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+@media (max-width: 1735px) {
+    .title {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .section {
+        padding: 0 80px;
+    }
+    .desc {
+        font-size: 18px;
+    }
+    .calk {
+        font-size: 16px;
+        width: 60px;
+    }
+}
+@media (max-width: 1325px) {
+    .title {
+        font-size: 36px;
+    }
+}
+@media (max-width: 1000px) {
+    .section {
+        padding: 0 15px;
+    }
+}
+@media (max-width: 992px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .title {
+        font-size: 28px;
+        line-height: 38.25px;
+    }
+}

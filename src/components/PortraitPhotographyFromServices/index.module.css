@@ -1,0 +1,247 @@
+.section {
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding: 0 162px;
+    margin: 130px 0 100px 0;
+}
+.main {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 116px;
+    border-bottom: 1px solid #2f2f37;
+}
+.text {
+    max-width: 652px;
+}
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    color: #cacace;
+}
+.strong {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60.1px;
+    text-align: left;
+    color: #797c86;
+    margin: 0;
+}
+.paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #797c86;
+    margin-bottom: 50px;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    text-align: left;
+    color: #f2f2f3;
+    text-transform: uppercase;
+    border-bottom: 1px solid #2f2f37;
+}
+
+.link img {
+    color: #ffffff;
+    margin-left: 5px;
+}
+.photo {
+    width: 100%;
+}
+.contanier_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 894px;
+    height: 404px;
+}
+.buttons_carousel {
+    display: flex;
+    flex-shrink: 0;
+    max-width: 440px;
+    border: 1px solid#1C1C21;
+    border-radius: 40px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+}
+
+.bidding {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.list {
+    width: 34%;
+}
+.title_price {
+    display: flex;
+    align-items: center;
+}
+.price {
+    display: inline-block;
+    margin: 0 20px 0;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 120px;
+    text-align: left;
+    color: #cacace;
+}
+.stars {
+    width: 66%;
+}
+.star {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(28, 28, 33, 1);
+    width: 100%;
+
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1440px) {
+    .section {
+        padding: 0 80px;
+    }
+    .main {
+        padding-bottom: 60px;
+    }
+    .strong {
+        font-size: 34px;
+        line-height: 46.44px;
+    }
+    .paragraph {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .link {
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+    .link img {
+        width: 13.75px;
+    }
+    .text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .section {
+        margin: 60px 0 60px 0;
+    }
+    .main {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text {
+        text-align: center;
+    }
+    .price {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .link {
+        font-size: 14px;
+        line-height: 19.12px;
+    }
+}
+@media (max-width: 1000px) {
+    .section {
+        padding: 0 15px;
+    }
+    .bidding {
+        padding: 20px 0;
+    }
+}
+@media (max-width: 992px) {
+    .bidding {
+        flex-direction: column;
+        align-items: center;
+    }
+    .stars {
+        width: 100%;
+    }
+    .list {
+        display: flex;
+        width: 450px;
+    }
+}
+@media (max-width: 930px) {
+    .contanier_img {
+        margin: 0 auto;
+        justify-content: center;
+        flex-shrink: 1;
+        max-width: 600px;
+    }
+    .buttons_carousel {
+        bottom: 40px;
+    }
+    .list {
+        justify-content: center;
+        width: 100%;
+    }
+    .stars {
+        width: 100%;
+    }
+    .photo {
+        flex-shrink: 1;
+    }
+}
+
+@media (max-width: 635px) {
+    .contanier_img {
+        max-width: 350px;
+    }
+    .buttons_carousel {
+        bottom: 70px;
+        height: 63px;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .price {
+        font-size: 40px;
+    }
+    .link {
+        font-size: 10px;
+    }
+    .link img {
+        width: 8px;
+    }
+
+    .star {
+        font-size: 14px;
+    }
+    .star img {
+        width: 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    .price {
+        font-size: 28px;
+    }
+    .star {
+        text-align: center;
+    }
+}
